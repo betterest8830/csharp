@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\P03E01ClassLibrary1\P03E02ClassLibrary1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibraryTest">
+      <HintPath>..\..\mylib\ClassLibraryTest.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

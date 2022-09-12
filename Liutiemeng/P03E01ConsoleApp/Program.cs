@@ -13,9 +13,9 @@ namespace P03E01ConsoleApp
             ClassLibraryTest.MyOperate op = new ClassLibraryTest.MyOperate();
             Console.WriteLine("sum = {0}", op.GetSum(3, 5));
             Console.WriteLine("sum = {0}", op.GetSubtract(3, 5));
-            // 公开的 dll : System.Windows.Froms
+            // 公开的 dll : System.Windows.Froms (???)
 
-            // nuget : Entity Framwork
+            // nuget : Entity Framwork (done)
 
             // 白盒的话，先把其他solotion 下的 project 加入到 当前 solution 然后 add preference
 

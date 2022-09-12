@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\P03E01ClassLibrary1\P03E02ClassLibrary1.csproj" />
   </ItemGroup>
 
